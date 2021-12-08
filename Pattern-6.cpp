@@ -6,13 +6,13 @@ int main()
 	cin >> n;
 	for(int i = n;i >=1 ;i--)
 	{
-	    for(int k = i;k < n;k++)
+	    for(int j = i;j < n;j++)
 	    {
-	    	cout << " " << " ";
+	    	cout << " ";
 	    }
-		for(int j = 1;j <= 2*i - 1;j++)
+		for(int j = 0;j < i;j++)
 		{
-		    cout << "*" << " ";
+		    cout << "* ";
 		}
 		cout << "\n";
 	}
